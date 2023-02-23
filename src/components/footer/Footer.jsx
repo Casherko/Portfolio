@@ -5,18 +5,19 @@ import { FiInstagram } from 'react-icons/fi'
 import {BsLinkedin} from 'react-icons/bs'
 import { useTranslation } from 'react-i18next'
 
-const footer = () => {
+const Footer = () => {
+  const {t, i18n } = useTranslation();
   return (
     <footer>
-      <a href='#' className='footer__logo'>KAMIL LUKAS</a>
+      <a href='#' className='footer__logo'>{t("fullName")}</a>
 
       <ul className='permalinks'>
-        <li><a href='#'>Home</a></li>
-        <li><a href='#about'>About</a></li>
-        <li><a href='#experience'>Experience</a></li>
-        <li><a href='#services'>Services</a></li>
-        <li><a href='#portfolio'>Portfolio</a></li>
-        <li><a href='#contact'>Contact</a></li>
+        <li><a href='#'>{t("home")}</a></li>
+        <li><a href='#about'>{t("about")}</a></li>
+        <li><a href='#experience'>{t("experience")}</a></li>
+        <li><a href='#services'>{t("services")}</a></li>
+        <li><a href='#portfolio'>{t("portfolio")}</a></li>
+        <li><a href='#contact'>{t("contact")}</a></li>
       </ul>
 
       <div className="footer__socials">
@@ -28,4 +29,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer

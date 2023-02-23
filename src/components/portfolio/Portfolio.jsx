@@ -3,7 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/images/FinalSkullQ.png'
 import IMG2 from '../../assets/images/star2.png'
 import IMG3 from '../../assets/images/vizitka.png'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG4 from '../../assets/images/reactCode.png'
 import IMG5 from '../../assets/images/weaponstrike2.png'
 import IMG6 from '../../assets/images/landscape.jpg'
 import { useTranslation } from 'react-i18next'
@@ -24,7 +24,7 @@ const Portfolio = () => {
             </div>
             <h3>{t("portfolio1")}</h3>
               <div className='portfolio__item-cta'>
-            <a href="https://www.artstation.com/casherko" className='btn btn-primary' target='_blank'>Artstation</a>
+            <a href="https://www.artstation.com/artwork/w0A9rZ" className='btn btn-primary' target='_blank'>Artstation</a>
               </div>          
           </article>
           <article className='portfolio__item'>

@@ -10,13 +10,28 @@ header{
     position: relative;
 }
 
-.language{
-    color: red;
+.czech__language{
     position: absolute;
-    right: 5%;
-    column-gap: 5rem;
+    right: 0rem;
+    width: 3rem;
+    height: 3rem;
 }
 
+.czech__language:hover{
+    cursor: pointer;
+}
+
+.english__language{
+    position: absolute;
+    top: 2px;
+    right: 3.2rem;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.english__language:hover{
+    cursor: pointer;
+}
 
 /* ================= CTA =========*/
 .cta{
