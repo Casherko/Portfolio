@@ -3,10 +3,9 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/images/profile.png'
 import CZ from '../../assets/images/cz.png'
-import EN from '../../assets/images/en.png'
+import EN from '../../assets/images/usa.png'
 import { useTranslation } from 'react-i18next'
 import HeaderSocials from './HeaderSocials'
-import loLanguage from 'react-icons/io'
 
 const Header = () => {
 

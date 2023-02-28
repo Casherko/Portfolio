@@ -42,7 +42,6 @@ const Portfolio = () => {
             </div>
             <h3>{t("portfolio3")}</h3>
               <div className='portfolio__item-cta'>
-            <a href="www.google.com" className='btn btn-primary' target='_blank'>Github</a>
               </div>          
           </article>
           <article className='portfolio__item'>
@@ -51,7 +50,7 @@ const Portfolio = () => {
             </div>
             <h3>{t("portfolio4")}</h3>
               <div className='portfolio__item-cta'>
-            <a href="www.google.com" className='btn btn-primary' target='_blank'>Github</a>
+            <a href="https://github.com/Casherko/Portfolio" className='btn btn-primary' target='_blank'>Github</a>
               </div>          
           </article>
           <article className='portfolio__item'>
