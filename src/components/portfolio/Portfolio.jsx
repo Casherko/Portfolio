@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/images/FinalSkullQ.png'
+import IMG1 from '../../assets/images/restaurant.png'
 import IMG2 from '../../assets/images/star2.png'
 import IMG3 from '../../assets/images/vizitka.png'
 import IMG4 from '../../assets/images/reactCode.png'
@@ -24,7 +24,7 @@ const Portfolio = () => {
             </div>
             <h3>{t("portfolio1")}</h3>
               <div className='portfolio__item-cta'>
-            <a href="https://www.artstation.com/artwork/w0A9rZ" className='btn btn-primary' target='_blank'>Artstation</a>
+            <a href="https://kamillukas-restaurant-example.netlify.app/" className='btn btn-primary' target='_blank'>Link</a>
               </div>          
           </article>
           <article className='portfolio__item'>
