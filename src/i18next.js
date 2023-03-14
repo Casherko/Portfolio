@@ -17,7 +17,7 @@ i18next.use(initReactI18next).init({
                 time2: "3D Designs with animation, 2D logos",
                 experience3: "Game Development",
                 time3: "2D Games Solo development and testing",
-                infoAbout: "I'm 25 years old from Czech republic. I live in city named Vrchlabi. I studied 4 years Information Technology at school Business Academy Veselí nad Moravou. Then I study 2 years at FIT CTU in Prague unfinished. At school I did projects such as an e-shop or chess game with AI. Then I work as Freelancer, I did two 2D games on android with Unity, some 3D models for AAA Games in Zbrush or Unreal Engine.",
+                infoAbout: "I'm 25 years old from Czech republic. I live in city named Vrchlabi. I studied 4 years Information Technology at school Business Academy Veselí nad Moravou. Then I study 2 years at FIT CTU in Prague unfinished. At school I did projects such as an e-shop or chess game with AI. Then I start work as freelance making games in Unity or UE, making 3D models and animation in Zbrush for games and now I learn frontend Developlment with React. In Information technology is so much roads I want know everything",
                 skill: "What Skill I have",
                 exp: "My Experience",
                 front: "Frontend Developer",
